@@ -1,12 +1,24 @@
-# React + Vite
+# SmartVyapaar Mini B2B Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+username = "admin"
+password = "1234"
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
+- Frontend: React, Tailwind CSS, Vite
+- Backend: Node.js, Express.js
+- Database: MongoDB via Mongoose
+- Auth: JWT-based authentication
+- Deployment: Vercel-Frontend, Render-Backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Links
+- Frontend: https://smart-vyapaar-fr.vercel.app/
+- Backend API: https://smartvyapaar-a.onrender.com/
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Manufacturer List with search + category filter
+- Manufacturer Detail Page
+- Dummy Login using JWT
+- Admin panel for managing manufacturers
+- Pagination
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
